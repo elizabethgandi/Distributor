@@ -7,21 +7,17 @@ using namespace std;
 
 class Drink
 {
-
     public:
 
     Drink(string na, int nu, float p) ;
     ~Drink();
 
-    void setNa(string name) ;
-    void setNu(int number)  ;
-    void setP (float price) ;
-
-    string getNa() const;
-
-    int    getNu() const;
-    
-    float  getP()  const;
+    void setName(string name) ;
+    void setNumber(int number)  ;
+    void setPrice (float price) ;
+    string getName() const;
+    int getNumber() const;
+    float getPrice()  const;
 
     private:
 
