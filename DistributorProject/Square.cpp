@@ -42,39 +42,39 @@ void Square::remove()
 {}
 
 ///--------------------------------------------
-/// Guetter of the name attribut -------------
+/// Getter of the name attribute -------------
 ///--------------------------------------------
 
 string Square::getDrinkName()
 {
-    return drink.getNa();
+    return drink.getName();
 }
 
 ///--------------------------------------------
-/// Setter of the name attribut ---------------
+/// Setter of the name attribute --------------
 ///--------------------------------------------
 
 void Square::setDrinkName(string n)
 { 
-    drink.setNa(n);
+    drink.setName(n);
 }
 
 ///--------------------------------------------
-/// Guetter of the number attribut ------------
+/// Getter of the number attribute ------------
 ///--------------------------------------------
 
 int Square::getDrinkNumber()
 {
-    return drink.getNu();
+    return drink.getNumber();
 }   
 
 ///--------------------------------------------
-/// Setter of the number attribut -------------
+/// Setter of the number attribute ------------
 ///--------------------------------------------
 
 void Square::setDrinkNumber(int num)
 {
-    drink.setNu(num);
+    drink.setNumber(num);
 }
 
 ///--------------------------------------------
@@ -83,7 +83,7 @@ void Square::setDrinkNumber(int num)
 
 float Square::getDrinkPrice()
 {  
-    return drink.getP();
+    return drink.getPrice();
 }
 
 ///--------------------------------------------
@@ -92,7 +92,7 @@ float Square::getDrinkPrice()
 
 void Square::setDrinkPrice(float p)
 {
-    drink.setP(p);
+    drink.setPrice(p);
 }
 
 ///--------------------------------------------

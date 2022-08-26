@@ -10,11 +10,11 @@ using namespace std;
 /// Constructor of the class ------------------
 ///--------------------------------------------
 
-Drink::Drink(string na, int nu, float p)
+Drink::Drink(string name, int number, float price)
 {
-    this->name   = na;
-    this->number = nu;
-    this->price  = p;
+    this->name   = name;
+    this->number = number;
+    this->price  = price;
 }
 
 ///--------------------------------------------
@@ -24,55 +24,55 @@ Drink::Drink(string na, int nu, float p)
 Drink::~Drink(){}
 
 ///--------------------------------------------
-/// Guetter of the name attribut --------------
+/// Getter of the name attribute --------------
 ///--------------------------------------------
 
-string Drink::getNa() const
+string Drink::getName() const
 {
     return this->name;
 }
 
 ///--------------------------------------------
-/// Guetter of the number attribut ------------
+/// Getter of the number attribute ------------
 ///--------------------------------------------
 
-int Drink::getNu() const
+int Drink::getNumber() const
 {
     return this-> number;
 }
 
 ///--------------------------------------------
-/// Guetter of the price attribut -------------
+/// Getter of the price attribute -------------
 ///--------------------------------------------
 
-float Drink::getP() const
+float Drink::getPrice() const
 {
     return this->price;
 }
 
 ///--------------------------------------------
-/// Setter of the name attribut ---------------
+/// Setter of the name attribute --------------
 ///--------------------------------------------
 
-void Drink::setNa(string name) 
+void Drink::setName(string name) 
 {
     this->name = name;
 }
 
 ///--------------------------------------------
-/// Setter of the number attribut -------------
+/// Setter of the number attribute ------------
 ///--------------------------------------------
 
-void Drink::setNu(int number)
+void Drink::setNumber(int number)
 {  
     this->number = number;
 }
 
 ///--------------------------------------------
-/// Setter of the price attribut --------------
+/// Setter of the price attribute -------------
 ///--------------------------------------------
 
-void Drink::setP(float price) 
+void Drink::setPrice(float price) 
 {
     this->price = price;
 }
