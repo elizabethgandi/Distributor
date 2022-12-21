@@ -1,2 +1,2 @@
-# Distributor
-Created in summer 2022.
+# Projet sur la simulation d'un distributeur
+Stage d'été en licence 2.
